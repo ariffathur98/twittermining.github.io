@@ -2,10 +2,10 @@
 require_once('./twitteroauth/twitteroauth.php');
 
 /* Config */
-$ck = 'ISI_DISINI'; //CONSUMER_KEY
-$cs = 'ISI_DISINI'; //CONSUMER_SECRET
-$ot = 'ISI_DISINI'; //OAUTH_TOKEN
-$ots = 'ISI_DISINI'; ////OAUTH_TOKEN_SECRET
+$ck = 'IsMYS8mSePAe8TuGIkJ2EvFhs'; //CONSUMER_KEY
+$cs = 'QZi35KkpFVwQPZOCoXMhzGeRZQJEX0i6jXIZ59BCBLG6fCqRwa'; //CONSUMER_SECRET
+$ot = '2993907685-iNpW5UhoNCbrVXNmIisYQeQ8pFyTggHtaUIQMX1'; //OAUTH_TOKEN
+$ots = 'szZvxgmz7HBSUfL20FU0MAnMlBxWJTShGl85ZwG5FCbv9'; ////OAUTH_TOKEN_SECRET
 $tweet = 'MRT'; //Keyword tweet yang dicari
 
 $connection = new TwitterOAuth($ck, $cs, $ot, $ots);
